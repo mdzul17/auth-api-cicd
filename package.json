@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll --coverage --setupFiles dotenv/config",
+    "test": "jest --coverage --setupFiles dotenv/config",
     "start": "node src/app.js",
     "start:dev": "jest --setupFiles dotenv/config",
     "test:watch": "jest --watchAll --coverage --setupFiles dotenv/config",
